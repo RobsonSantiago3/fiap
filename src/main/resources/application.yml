@@ -1,0 +1,12 @@
+
+
+
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: http://localhost:9092
+      auto-offset-reset: earliest
+      group-id: br.com.nubank
+order:
+  topicAvalicao: clienteOpenBank
+  topicAvaliado: clienteCreditoNubank
